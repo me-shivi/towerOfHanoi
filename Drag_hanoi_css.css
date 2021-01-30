@@ -1,0 +1,154 @@
+.big_div {
+  border: 5px solid #000;
+  height: 500px;
+  width: 700px;
+}
+
+.big_div,
+.canves {
+  margin: auto;
+}
+
+.upper_div {
+  height: 200px;
+  background-color: #00ffff;
+  border-bottom: 2px solid #008000;
+} 
+
+.lower_div {
+  height: 300px;
+  background-color: #00ff00;
+}
+
+.sun_right,
+.help_icon,
+.btn,
+.moves,
+.tower {
+  position: relative;
+}
+
+.sun_right {
+  left: 380px;
+}
+
+.help_icon {
+  right: 65px;
+  bottom: 35px;
+  background-color: #ffff00;
+  right: 60px;
+  width: 16px;
+}
+
+.help_icon,
+.moves {
+  font-size: 15px;
+}
+
+.help_icon,
+.moves,
+.disk {
+  border: 1px solid #000;
+}
+
+.btn {
+  left: 185px;
+}
+
+.btn,
+.tower {
+  cursor: pointer;
+}
+
+.moves {
+  margin: 0 0 0 10px;
+  background-color: #fff;
+  right: 110px;
+  bottom: 25px;
+}
+
+.moves,
+.disk-2 {
+  width: 40px;
+}
+
+.moves,
+.disk {
+  height: 15px;
+}
+
+.canves {
+  flex-direction: row-reverse;
+  flex-flow: wrap;
+  width: 400px;
+}
+
+.canves,
+.tower {
+  display: flex;
+}
+
+.tower {
+  width: 122px;
+  height: 110px;
+  border-bottom: 5px solid #00ff00;
+  text-align: center;
+  padding: 0;
+  margin: 0 5px 0 4px;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.disk {
+  float: left;
+}
+
+.disk.hold {
+  bottom: 50px;
+  left: 10px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.disk-1 {
+  width: 20px;
+  background-color: #FF8442;
+}
+
+.disk-2 {
+  background-color: #FF0084;
+}
+
+.disk-3 {
+  width: 60px;
+  background-color: #0084FF;
+}
+
+.disk-4 {
+  width: 80px;
+  background-color: #848484;
+}
+
+.disk-5 {
+  width: 100px;
+  background-color: #dc143c;
+}
+
+.disk-6 {
+  width: 120px;
+  background-color: #800080;
+}
+
+.small_button,
+.medium_button {
+  margin-right: 20px;
+}
+
+.medium_button {
+  margin-left: 11px; 
+}
+
+.big_button {
+  margin-left: 15px;
+}
